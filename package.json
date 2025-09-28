@@ -1,0 +1,33 @@
+{
+  "name": "solbanger101",
+  "version": "1.0.0",
+  "description": "AI agent for trading on Solana blockchain",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test test/*.test.js",
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "lint:fix": "eslint --fix src/**/*.js test/**/*.js"
+  },
+  "keywords": [
+    "solana",
+    "trading",
+    "ai",
+    "blockchain",
+    "defi",
+    "bot"
+  ],
+  "author": "Abelhubprog",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.9",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  }
+}
